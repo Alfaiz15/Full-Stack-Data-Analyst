@@ -192,4 +192,5 @@ DELIMITER ;
 -- Data simulasi realistis
 -- Query dari dasar → mahir
 -- View untuk monitoring stok rendah
+
 -- Procedure untuk automation update stok
