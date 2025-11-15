@@ -8,7 +8,7 @@ Proyek ini menyajikan analisis komprehensif atas data transaksi penjualan pizza 
 
 ## 🎯 Tujuan Utama (Business Questions)
 
-Analisis ini bertujuan menjawab pertanyaan-pertanyaan kunci yang diajukan oleh Tim Manajemen (lihat `Data Pizza.xlsx - Question.csv`):
+Analisis ini secara spesifik bertujuan menjawab pertanyaan-pertanyaan kunci yang diajukan oleh Tim Manajemen (lihat `Data Pizza.xlsx - Question.csv`):
 
 1.  Berapa Total Revenue, Total Order, dan **Average Order Value (AOV)**?
 2.  Bagaimana tren pendapatan bulanan (*Seasonality*)?
@@ -19,16 +19,7 @@ Analisis ini bertujuan menjawab pertanyaan-pertanyaan kunci yang diajukan oleh T
 
 * **Primary Tool:** Microsoft Excel / Google Sheets
 * **Data Source:** `Data Pizza.xlsx - Raw Data Pizza Sales.csv` (Data Transaksi Harian)
-
----
-
-## 🖼️ Visualisasi Kunci: Dashboard Penjualan
-
-Berikut adalah tampilan Dashboard Interaktif yang dihasilkan dari analisis data, berfungsi sebagai alat navigasi utama bagi Tim Operasional dan Manajemen:
-
-![Dashboard Kinerja Penjualan Pizza 2015](Dashboard.png)
-
----
+* **Output:** Dashboard Interaktif (`Dashboard.csv`) dan Pivot Table (`Pivot Table.csv`).
 
 ## ⚙️ Workflow Analisis Data (Excel/Sheets Focused)
 
@@ -45,12 +36,23 @@ Menciptakan kolom-kolom baru (`Feature Engineering`) untuk memungkinkan agregasi
 
 ### Fase 2: Pivot Table dan Agregasi (Inti Analisis)
 
-Menggunakan fitur **Pivot Table** untuk merangkum puluhan ribu baris data menjadi wawasan yang terstruktur.
+Menggunakan fitur **Pivot Table** untuk merangkum 49.574 baris data menjadi wawasan yang terstruktur.
 
 1.  **KPI Global:** Menghitung **Total Revenue** (`SUM`), **Total Order** (`COUNT UNIQUE`), dan **AOV** ($\frac{\text{Total Revenue}}{\text{Total Order}}$).
-2.  **Tren Pendapatan:** Rows: `Nama Bulan`, Values: `SUM of Total Revenue` (Sumber untuk Line Chart *Seasonality*).
-3.  **Top 10 Sellers:** Rows: `pizza_name`, Values: `SUM of quantity` (Menggunakan **Value Filter: Top 10**).
-4.  **Revenue Segmentasi:** Rows: `pizza_category`, Columns: `pizza_size`, Values: `SUM of Total Revenue`.
+2.  **Tren Pendapatan:** **Rows:** `Nama Bulan`, **Values:** `SUM of Total Revenue`.
+3.  **Top 10 Sellers:** **Rows:** `pizza_name`, **Values:** `SUM of quantity` (Menggunakan **Value Filter: Top 10**).
+4.  **Revenue Segmentasi:** **Rows:** `pizza_category`, **Columns:** `pizza_size`, **Values:** `SUM of Total Revenue`.
+
+### Fase 3: Dashboard Visualisasi dan Interaktivitas
+
+Membuat *Dashboard* yang ringkas dan kuat, dihubungkan langsung ke Pivot Table.
+
+| Visualisasi | Tipe Chart | Wawasan yang Diperkuat |
+| :--- | :--- | :--- |
+| **Tren Revenue Bulanan** | Line Chart | Menunjukkan *Seasonality* yang kuat (**Puncak Juli**, **Lembah September**). |
+| **Quantity by Category** | Donut Chart | Menetapkan prioritas bahan baku: **Classic (30%)** dan **Supreme (24%)** mendominasi volume. |
+| **Revenue by Size** | Stacked Bar Chart | Menentukan strategi *Upselling*: Ukuran **Large (L)** adalah pendorong Revenue utama. |
+| **Interaktivitas** | Slicer | Menghubungkan *Slicer* (`pizza_category`) ke semua *chart* untuk analisis *ad-hoc* (misalnya, menganalisis performa *hanya* kategori Chicken). |
 
 ## 💡 Key Insights dan Rekomendasi Strategis
 
@@ -64,3 +66,8 @@ Analisis data menghasilkan rekomendasi *actionable* yang menargetkan peningkatan
 | **Fokus Kategori** | **Inventory Management:** Tingkatkan *buffer stock* untuk bahan baku kategori **Classic** dan **Supreme** untuk mencegah *stock-out* pada periode *peak* bulanan (misalnya, Juli). |
 
 ---
+
+### Lihat Dashboard dan Data Lengkap
+
+* [**Dashboard Hasil Analisis**](link_ke_dashboard_google_sheets_atau_excel_online)
+* [**Raw Data Pizza Sales**](Data%20Pizza.xlsx%20-%20Raw%20Data%20Pizza%20Sales.csv)
