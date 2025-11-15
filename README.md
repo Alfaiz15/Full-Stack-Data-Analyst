@@ -1,54 +1,23 @@
-# 🍕 Analysis  Sales Performance 
+# 🚀 Data Analyst Portfolio: Mastering Operational Efficiency & Automation
 
-## 🎯 Project Overview
+## 🎯 Ringkasan Pembelajaran (Skills & Impact Summary)
 
-This project provides a comprehensive analysis of historical pizza sales data to generate **actionable business insights** and support strategic decision-making in operations, marketing, and inventory management.
+Portofolio ini mendemonstrasikan penguasaan *end-to-end data workflow*, dari *data cleansing* hingga *executive dashboarding*, dengan fokus utama pada peningkatan **Operational Efficiency** dan **Profitability**.
 
-The analysis focuses on measuring key performance indicators (KPIs) and uncovering underlying sales trends to optimize performance.
-
----
-
-## 🛠️ Data & Tools
-
-| Phase | Tool | Description |
+| Tools Utama | Proyek & Aplikasi Kunci | Pembelajaran Kunci yang Dikuasai |
 | :--- | :--- | :--- |
-| **Data Cleaning & Preparation** | Google Sheets / Microsoft Excel | Conducted validation, standardization, and error correction on `pizza_sales_raw.csv` to produce the analysis-ready dataset (`Data Clean.csv`). |
-| **Analysis & Modeling** | Microsoft Excel | Performed KPI calculations, trend analysis, and data aggregation utilizing **Pivot Tables** and advanced Excel functions. |
-| **Visualization & Reporting** | Microsoft Excel Dashboard | Built an **interactive dashboard** for dynamic visualization of sales performance metrics. |
+| **Excel / Google Sheets** | **Analisis Penjualan & Data Cleansing** | **Data Integrity** (`TRIM`, `UNIQUE`) dan **Advanced Feature Engineering** (IF/IFS, DATE, Persentase Kontribusi). Menguasai perhitungan KPI Finansial seperti **Total Revenue** dan **AOV** (Average Order Value). |
+| **Advanced SQL** | **Otomasi Logistik & Data Governance** | Merancang *Data Structure* (Data Modeling) dan implementasi solusi *backend* operasional: **Stored Procedures** untuk *update* stok otomatis, **Views** untuk *early warning* stok rendah, dan **CTEs** untuk perhitungan **Net Profit** Gudang. |
+| **Tableau** | **Root Cause Analysis (RCA) & Dashboarding** | Keahlian dalam *Executive Dashboarding* dan *Storytelling* Data. Mampu memvisualisasikan **Root Cause Analysis** Keterlambatan Penerbangan, memetakan *hotspot* operasional (**Geo-Spatial Mapping**), dan membandingkan *Internal* vs *Eksternal* *delay*. |
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## 📈 (Komprehensif & Profesional)
 
-The following metrics were calculated and tracked to evaluate the overall sales performance:
+Saya telah menguasai keterampilan penting untuk seorang Data Analyst di ranah **Operations**.
 
-* **Total Revenue:** Represents the total income generated from all pizza sales.
-* **Total Orders:** Measures the overall customer demand and transaction volume, indicating operational load.
-* **Average Order Value (AOV):** Indicates the average revenue generated per transaction, a key metric for sales efficiency and upselling performance.
-* **Quantity Sold per Category:** Shows the product distribution and popularity across different pizza categories.
+* **Pondasi Analisis:** Saya mahir menggunakan **Excel/Sheets** untuk analisis *Revenue* (**Project Pizza**) dan *Time Series Analysis*. Saya tidak hanya menghitung **Total Revenue** dan **Top Sellers**, tetapi juga menciptakan metrik operasional kompleks seperti **Total Waktu Delay** untuk analisis efisiensi maskapai.
+* **Otomasi & Struktur Data:** Saya mampu beralih ke *backend* dengan **SQL** untuk membangun sistem. Pembelajaran terbesar adalah mengimplementasikan **Automasi Operasional** (membuat **Stored Procedure** untuk *Inventory Management*) dan melakukan *Advanced Querying* (menggunakan **CTEs** untuk akurasi perhitungan **Net Profit**).
+* **Komunikasi Data:** Saya terampil mengubah hasil analisis RCA (Analisis Keterlambatan Penerbangan) menjadi visualisasi yang berdampak di **Tableau**. Saya dapat mengkomunikasikan secara jelas titik lemah operasional dan memberikan rekomendasi strategis berdasarkan data terfilter dan *geographic insights*.
 
----
-
-## ✨ Key Insights & Operational Recommendations
-
-The analysis yielded several critical insights for business optimization:
-
-### 📈 Sales and Demand Trends
-
-* **Seasonal Pattern:** Identified clear **seasonal sales patterns** and consistent revenue growth, allowing for better forecasting and staffing/inventory planning during peak times.
-* **Peak Demand:** High-demand periods were clearly identified (e.g., specific days/months), suggesting targeted marketing and operational resource allocation (e.g., kitchen staffing, delivery optimization).
-
-### 🏆 Product Performance
-
-* **Top Products:** Highlighted best-selling pizzas that contribute significantly to sales. **Recommendation:** Prioritize inventory and marketing efforts for these top-performing SKUs to maximize ROI.
-* **Category & Size Contribution:** **Larger pizzas (L/XL)** and **Classic pizza categories** drive the highest revenue share. **Recommendation:** Focus promotions on larger sizes and ensure consistent availability of ingredients for the Classic category.
-
-### 💡 Operational Efficiency
-
-* The relationship between **Total Orders** and **Average Order Value (AOV)** provides insights into operational efficiency versus revenue quality, crucial for optimizing order processing and delivery logistics.
-
----
-
-## 🖼️ Dashboard Overview
-
-The final output is an interactive **Pizza Sales Performance Dashboard** built in Excel
+Secara keseluruhan, saya mampu mengelola *data life cycle* secara penuh—dari menjamin *data integrity* hingga memberikan wawasan yang langsung meningkatkan **Efficiency** dan **Profitability** bisnis.
