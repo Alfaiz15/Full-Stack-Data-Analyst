@@ -1,5 +1,4 @@
-# 🍕 Data-Driven Analisis Kinerja Penjualan Pizza (2015)
-
+# 🍕 Data-Driven Pizza Sales Performance Analysis 
 ## 📌 Ringkasan Eksekutif (Executive Summary)
 
 Proyek ini adalah demonstrasi *skill* **Data Analysis** dengan fokus pada **Operations**, bertujuan mengubah data transaksi mentah selama satu tahun menjadi *actionable insights*. Proses analisis dilakukan secara efisien menggunakan **Microsoft Excel/Google Sheets**, menghasilkan *Interactive Dashboard* yang berfungsi sebagai panduan utama bagi manajemen untuk **Optimasi Revenue**, **Forecasting**, dan peningkatan **Efisiensi Inventaris**.
