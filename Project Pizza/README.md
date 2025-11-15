@@ -53,14 +53,6 @@ Visualisasi yang *clear* dan *concise* untuk komunikasi wawasan yang efektif, di
 
 ---
 
-## 🖼️ Visualisasi Kunci: Dashboard Penjualan
-
-Berikut adalah tampilan *Interactive Dashboard* yang dihasilkan, mencerminkan hasil analisis di atas:
-
-![Dashboard Kinerja Penjualan Pizza 2015](Dashboard.png)
-
----
-
 ## 💡 Key Insights & Rekomendasi Strategis
 
 Analisis data menghasilkan temuan yang langsung dapat diimplementasikan untuk meningkatkan efisiensi dan profit:
