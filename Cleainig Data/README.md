@@ -1,4 +1,4 @@
-# 🎬 Analytics: IMDB Movie Dataset
+# 🎬 Analytics - IMDB Movie Dataset
 ## ✨ Excel & Google Sheets Implementation
 
 **Key Tools:** ⚙️ Microsoft Excel & Google Sheets
